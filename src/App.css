@@ -4,6 +4,7 @@ html{
   background-image: url('./Resources/Rectangle1.png');
   background-size: cover;
   background-position: center center;
+  color:#595DCB;
 }
 
 .App{

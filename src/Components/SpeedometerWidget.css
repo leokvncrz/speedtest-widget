@@ -16,6 +16,22 @@
     animation-fill-mode: forwards;
 }
 
+.SpeedDetails{
+  width: 300px;
+  top: 330px;
+  left: calc(50% - 150px);
+  position: absolute;
+}
+
+.Type{
+  font-size: 25px;
+}
+
+.Speed{
+  font-size: 35px;
+  font-weight: bold;
+}
+
 @keyframes Speedometer-needle-rotate {
     from {
       transform: rotate(-240deg);

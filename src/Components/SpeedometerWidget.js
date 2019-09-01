@@ -9,6 +9,14 @@ class SpeedometerWidget extends React.Component {
       <div className="Speedometer">
         <img className="NumberImage" src={numberImg} alt="Number"/>
         <img className="NeedleImage" src={needleImg} alt="Needle"/>
+        <div className="SpeedDetails">
+          <div className="Speed">
+           100 Mbps
+          </div>
+          <div className="Type">
+           Download 
+          </div>
+        </div>
       </div>
     );
   }
