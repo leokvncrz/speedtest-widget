@@ -8,6 +8,10 @@ class SpeedometerWidget extends React.Component {
     return (
       <div className="Speedometer">
         <img className="NumberImage" src={numberImg} alt="Number"/>
+        <div className="ScoreDetails">
+          <div className="ScoreTag">Score</div>
+          <div className="ScoreData">GOOD</div>
+        </div>
         <img className="NeedleImage" src={needleImg} alt="Needle"/>
         <div className="SpeedDetails">
           <div className="Speed">

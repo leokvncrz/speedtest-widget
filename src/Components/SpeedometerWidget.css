@@ -16,10 +16,26 @@
     animation-fill-mode: forwards;
 }
 
+.ScoreDetails{
+  width: 300px;
+  left: calc(50% - 160px);
+  top: 100px;
+  position: absolute;
+}
+
+.ScoreTag{
+  font-size: 25px;
+}
+
+.ScoreData{
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .SpeedDetails{
   width: 300px;
   top: 330px;
-  left: calc(50% - 150px);
+  left: calc(50% - 160px);
   position: absolute;
 }
 
