@@ -13,7 +13,7 @@ class SpeedometerWidget extends React.Component {
           <div className="ScoreData">GOOD</div>
         </div>
         <img className="NeedleImage" src={needleImg} alt="Needle"/>
-        <div className="SpeedDetails">
+        <div className="SpeedText">
           <div className="Speed">
            100 Mbps
           </div>
