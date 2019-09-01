@@ -1,0 +1,58 @@
+.Speedometer{
+    position: relative;
+}
+
+.NumberImage{
+    width: 500px;
+    position: relative;
+}
+
+.NeedleImage{
+    width: 260px;
+    top: 180px;
+    left: calc(50% - 130px); 
+    position: absolute;
+    animation: Speedometer-needle-rotate 1s;
+    animation-fill-mode: forwards;
+}
+
+.ScoreDetails{
+  width: 300px;
+  left: calc(50% - 160px);
+  top: 100px;
+  position: absolute;
+}
+
+.ScoreTag{
+  font-size: 25px;
+}
+
+.ScoreData{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.SpeedText{
+  width: 300px;
+  top: 330px;
+  left: calc(50% - 160px);
+  position: absolute;
+}
+
+.Type{
+  font-size: 25px;
+}
+
+.Speed{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+@keyframes Speedometer-needle-rotate {
+    from {
+      transform: rotate(-240deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }

@@ -1,0 +1,30 @@
+.SpeedTestWidget{
+    position: relative;
+    margin-top: 40px;
+}
+
+.Download, 
+.Upload{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.FlexParent{
+    position: relative;
+    left: calc(50% - 250px);
+    width: 500px;
+    display: flex;
+}
+
+.Ping,
+.Jitter,
+.Filler
+{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.Filler {
+    flex-grow: 1;
+}

@@ -1,0 +1,12 @@
+.StartButton{
+    margin-top: 30px;
+}
+
+.StartButtonImage{
+    width: 300px;
+    opacity: 0.8;
+}
+
+.StartButtonImage:hover {
+    opacity: 1;
+}
