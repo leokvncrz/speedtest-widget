@@ -1,0 +1,26 @@
+.Speedometer{
+    position: relative;
+}
+
+.NumberImage{
+    width: 500px;
+    position: relative;
+}
+
+.NeedleImage{
+    width: 260px;
+    top: 180px;
+    left: calc(50% - 130px); 
+    position: absolute;
+    animation: Speedometer-needle-rotate 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Speedometer-needle-rotate {
+    from {
+      transform: rotate(-240deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
